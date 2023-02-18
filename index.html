@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <!-- NAVBAAR -->
+
+    <nav class="bg-white navbar navbar-custom navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Explore
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Vehicles</a></li>
+                  <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="rightSide">
+              <div class="links vehicles">
+                <a class="nav-link">Vehicles</a>
+            </div>
+            <div class="links">
+                <a class="nav-link">Portfolio</a>
+            </div>
+            <div class="links">
+                <a class="nav-link">Settings</a>
+            </div>
+            <div class="img"></div>
+          </div> 
+          </div>
+        </div>
+      </nav>
+
+      <div class="Title title-top"><h1>Vehicles</h1></div>
+      <h4 class="Title">SPVs</h4>
+      <button class="addNewDeal">Add New Deal</button>
+      <button class="companyBtn"> <i class="fa fa-search" aria-hidden="true" style="color:black"></i> Company</button>
+      <div class="buttons">
+        <button class="bitn"> All(2) </button>
+        <button class="bitn bitn-unactive">In Review(0)</button>
+        <button class="bitn bitn-unactive">Closed</button>
+      </div>
+
+     
+
+
+      <table class="table" style="width:89%;">
+        <thead class="thead-dark">
+          <tr class="tr1">
+            <th scope="col">SPV name</th>
+            <th scope="col">Deal Name</th>
+            <th scope="col">Status</th>
+            <th scope="col">Deal Closure Amount</th>
+            <th scope="col">Close Date</th>
+            <th scope="col">total AuM</th>
+            <th scope="col">Carry on</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+          <th scope="row"><div class="th1"><div class="B"><h4 class="bh4">B</h4></div> <a href="./BlockApps/investorDetail.html" style="text-decoration: none;color: black;"><h6>BlockScope</h6></a></div></th>
+            <td>Deal Name</td>
+            <td>Active</td>
+            <td>$,700,000</td>
+            <td>Jan16,2023</td>
+            <td>$,700,000</td>
+            <td>$,700,000</td>
+          </tr>
+          <tr>
+            <th scope="row"><div class="th1"><div class="B"><h4 class="bh4">B</h4></div> <a href="./BlockApps/investorDetail.html" style="text-decoration: none;color: black;"><h6>BlockScope</h6></a></div></th>
+            <td>Deal Name</td>
+            <td>Active</td>
+            <td>$,700,000</td>
+            <td>Jan16,2023</td>
+            <td>$,700,000</td>
+            <td>$,700,000</td>
+          </tr>
+            </tbody>
+      </table>
+      
+      <div class="accordion" id="accordionExample" style="width: 25%;margin-left: 4rem;">
+        <div class="accordion-item ">
+          <h2 class="accordion-header " id="headingOne">
+            <button class="accordion-button bg-secondary-subtle"  style="border:none;color:black;font-weight: 600;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              My Master LLC button
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            <li>Master LLC formation docs</li>
+            <li>EIN</li>
+            </div>
+          </div>
+        </div>
+        </div>  
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
